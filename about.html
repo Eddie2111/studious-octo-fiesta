@@ -1,0 +1,243 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>ASM Tareq Mahmood | About</title>
+    <style>
+        /* Add your accordion styling here */
+        .accordion {
+          display: flex;
+          flex-direction: column;
+        }
+    
+        .accordion-item {
+          margin-bottom: 1rem;
+          border: 1px solid #ccc;
+          border-radius: 0.25rem;
+        }
+    
+        .accordion-header {
+          padding: 0.75rem;
+          background-color: #f5f5f5;
+          cursor: pointer;
+        }
+    
+        .accordion-content {
+          display: none;
+          padding: 0.75rem;
+        }
+      </style>
+  </head>
+
+
+  <body>
+    
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="https://www.facebook.com">Facebook</a></li>
+              <li><a class="dropdown-item" href="https://www.twitter.com">Twitter</a></li>
+              <li><a class="dropdown-item" href="https://www.reddit.com">Reddit</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navigation Bar-->
+  <p> About me</p>
+
+  <div class="container">
+     <p> Skills I have gathered</p>
+    <table class="table table-bordered table-striped text-center">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Category</th>
+          <th scope="col">Technologies</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Frontends</td>
+          <td>React, Gatsby, Vite, Next, NextJS14</td>
+        </tr>
+        <tr>
+          <td>Languages</td>
+          <td>JavaScript, TypeScript, Python, Java, C#, GoLang</td>
+        </tr>
+        <tr>
+          <td>Markups</td>
+          <td>HTML, CSS, SASS, Markdown</td>
+        </tr>
+        <tr>
+          <td>Stylings</td>
+          <td>Bootstrap, Tailwind CSS</td>
+        </tr>
+        <tr>
+          <td>Backend and RestAPI</td>
+          <td>Node.js, Express.js, GraphQL, Flask, FastAPI, Amplify</td>
+        </tr>
+        <tr>
+          <td>DevOps</td>
+          <td>Docker, Nginx</td>
+        </tr>
+        <tr>
+          <td>Deployments and Cloud</td>
+          <td>Vercel, Render, Cyclic, AWS</td>
+        </tr>
+        <tr>
+          <td>ORMs and ODMs</td>
+          <td>Mongoose, Prisma, Drizzle, Beanie, Motor</td>
+        </tr>
+        <tr>
+          <td>Database Systems</td>
+          <td>MySQL, PostgreSQL, Redis, MongoDB, Neo4j</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Publications -->
+  <div class="container mt-5">
+    <p class="h3">Publications</p>
+    <div class="accordion">
+        <div class="accordion-item">
+        <div class="accordion-header" onclick="toggleAccordion('section1')">
+            <p class="fst-italic">Bridging Worlds: Enhancing Sign Language Recognition and Seamless BdSL-to-Bengali Conversion with Sequential LSTM Innovation</p>
+        <div class="accordion-content" id="section1">
+            <p>"Bridging Worlds: Enhancing Sign Language Recognition and Seamless BdSL-to-Bengali Conversion with Sequential LSTM Innovation" is a project that integrates cutting-edge technologies to improve sign language recognition and facilitate the smooth conversion between Bangladesh Sign Language (BdSL) and Bengali. The project employs MediaPipe for feature extraction, capturing intricate details from sign language videos. A web application is utilized to collect textual data associated with the signs, while a sign language instructor contributes by providing expert guidance and meaningful annotations through video demonstrations.
+                <br/>
+                The core innovation lies in the implementation of Sequential Long Short-Term Memory (LSTM) networks, a type of recurrent neural network (RNN), for processing and predicting accurate data. The sequential LSTM model enhances the system's ability to understand and interpret the sequential nature of sign language, enabling more precise recognition and conversion. By combining these technologies, the project aims to bridge the communication gap between the Deaf and hearing communities by providing an efficient and accurate means of translating BdSL to Bengali, promoting inclusivity and accessibility in communication.</p>
+        </div>
+        </div>
+<br/>
+        <div class="accordion-item">
+        <div class="accordion-header fst-italic" onclick="toggleAccordion('section2')">Securing the Pharmaceutical Supplychain Using Blockchain
+            </div>
+        <div class="accordion-content" id="section2">
+            <p>"Securing the Pharmaceutical Supply Chain Using Blockchain" is an innovative solution leveraging cutting-edge technologies to enhance the security and transparency of the pharmaceutical supply chain. This project employs Next.js, a modern and efficient React framework, to develop a robust web application that facilitates seamless interactions and data flow within the supply chain ecosystem.
+                <br/>
+                Central to this initiative is the implementation of blockchain technology, specifically utilizing AWS-managed Ethereum, to establish an immutable and decentralized ledger. This blockchain solution ensures the integrity of data across the entire supply chain, offering a secure and transparent record of transactions from manufacturers through distributors to end consumers.
+                <br/>
+                Furthermore, the system utilizes an online-managed PostgreSQL database to store and manage critical information related to pharmaceutical products, enhancing data reliability and accessibility. By combining Next.js, online-managed databases, and AWS-managed Ethereum, the project not only secures the pharmaceutical supply chain against potential threats such as counterfeiting or unauthorized tampering but also provides stakeholders with real-time visibility into the movement and authenticity of pharmaceutical products. This initiative marks a significant step forward in fostering trust, accountability, and safety within the pharmaceutical industry.</p>
+        </div>
+        </div>
+
+        <!-- Add more accordion items as needed -->
+    </div>
+    </div>
+
+  <script>
+    function toggleAccordion(sectionId) {
+      const section = document.getElementById(sectionId);
+      if (section.style.display === 'none' || section.style.display === '') {
+        section.style.display = 'block';
+      } else {
+        section.style.display = 'none';
+      }
+    }
+  </script>
+  
+  <!-- footer -->
+  <footer class="text-center bg-body-tertiary">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <!-- Github -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2024 Copyright:
+      <a class="text-body" href="https://eddie2111.github.io/portfolio-build/">ASM Tareq Mahmood</a>
+    </div>
+    <p> Last Edited: 4th February, 2024</p>
+    <!-- Copyright -->
+  </footer>
+  <!-- footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
